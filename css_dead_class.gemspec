@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Andrew Pilsch"]
   s.email       = ["apilsch@tamu.edu"]
-  s.homepage    = "http://andrew.pilsch.com"
+  s.homepage    = "https://github.com/oncomouse/css_dead_class"
   s.summary     = %q{Gem that, given a collection of HTML documents and CSS files, will remove any class attributes in the HTML set to CSS selectors that do not exist in the CSS files.}
   # s.description = %q{A longer description of your extension}
 
