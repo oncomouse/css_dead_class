@@ -17,7 +17,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   
   # The version of middleman-core your extension depends on
-  s.add_runtime_dependency("middleman-core", ["~> 4"])
   s.add_runtime_dependency("nokogiri", ["~> 1.6"])
   s.add_runtime_dependency("css_parser", ["~> 1.4"])
   
