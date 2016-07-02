@@ -5,10 +5,10 @@ Gem::Specification.new do |s|
   s.name        = "css_dead_class"
   s.version     = "1.0.0"
   s.platform    = Gem::Platform::RUBY
-  # s.authors     = ["Your Name"]
-  # s.email       = ["email@example.com"]
-  # s.homepage    = "http://example.com"
-  # s.summary     = %q{A short summary of your extension}
+  s.authors     = ["Andrew Pilsch"]
+  s.email       = ["apilsch@tamu.edu"]
+  s.homepage    = "http://andrew.pilsch.com"
+  s.summary     = %q{Gem that, given a collection of HTML documents and CSS files, will remove any class attributes in the HTML set to CSS selectors that do not exist in the CSS files.}
   # s.description = %q{A longer description of your extension}
 
   s.files         = `git ls-files`.split("\n")
@@ -17,9 +17,11 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   
   # The version of middleman-core your extension depends on
-  s.add_runtime_dependency("middleman-core", [">= 4.0.0"])
-  s.add_runtime_dependency("nokogiri", [">= 1.6.0"])
-  s.add_runtime_dependency("css_parser", [">= 1.4.0"])
+  s.add_runtime_dependency("middleman-core", ["~> 4"])
+  s.add_runtime_dependency("nokogiri", ["~> 1.6"])
+  s.add_runtime_dependency("css_parser", ["~> 1.4"])
+  
+  s.license = "ISC"
   
   # Additional dependencies
   # s.add_runtime_dependency("gem-name", "gem-version")
