@@ -20,7 +20,6 @@ class CSSDeadClass
 	
 	def initialize(opts={})
 		@options = self.class.config.dup
-		@options.finalize!
 		opts.each do |k, v|
 			@options[k] = v
 		end
